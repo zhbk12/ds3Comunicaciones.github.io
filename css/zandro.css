@@ -1,0 +1,94 @@
+
+    ul .descrip-pro span {
+      font-size: 10px;
+     }
+    
+    ul .descrip-pro i {
+      font-size: 5px;
+     }
+     .botens a{
+      font-weight: 500;
+      font-size: 10px;
+      max-height: 50px;
+    }
+
+    .parra-descripcion{
+      font-size: 11px;
+      margin: -5px;
+      padding: 10px;
+    }
+
+    .navbar img{
+      max-width: 50%;
+    }
+
+    .navbar {
+
+    }
+
+    .infor-top{
+      background-color: #333;
+      max-width: 20px;
+    }
+
+    .dropdown-menu{
+      width: 300px;
+    }
+
+    
+    .scroll{
+        background-color: white;
+        padding: 10px;
+    }
+
+    .scroll img{
+        max-width: 50px;
+        margin: 0 20px;
+        transition: .5s;
+        cursor: pointer;    
+    }
+        
+   
+    .scroll img:hover{
+        filter: grayscale(100%);
+    }
+        
+    .scroll{
+        position: relative;
+        display: flex;
+        max-width: 1600px;
+        overflow: hidden;
+        mask-image: linear-gradient(90deg, transparent, #fff 20%, #fff 80%, transparent);
+    }
+
+    .scroll div {
+        display: flex;
+        white-space: nowrap;
+        animation: animate 50s linear infinite;
+        -webkit-animation: animate 50s linear infinite;
+}
+        
+    @keyframes animate {
+        0%{
+            transform: translateX(0);
+        }
+
+        100%{
+            transform: translateX(-100%);
+        }
+    }
+
+    .scroll:hover div{
+        animation-play-state: paused;
+    }
+
+    h6{
+        font-weight: bold;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .img_main{
+        max-width: 100%;
+    }
